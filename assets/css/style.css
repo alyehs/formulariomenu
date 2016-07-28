@@ -1,3 +1,6 @@
+.pull-left {
+padding-left :26%;
+}
 .media i.fa {
   border: 2px solid #e63537;
   color: #e63537;
@@ -13,6 +16,23 @@
   color: #ffffff;
   background: #e63537;
 }
+.media-body {
+  color: #999999;
+  margin
+}
+.media.feature {
+  margin-top: 25px;
+}
+.media.feature:first-child {
+  margin-top: 0;
+}
+
+.media-heading {
+	text-align:left;
+	padding-left : 10px;
+	padding-top :16px;
+}
+	
 
 .media i.fa {
   -webkit-border-radius: 50%;
@@ -183,7 +203,9 @@ ul.navbar-nav {
 }
 
 @media (max-width: 415px) {
-
+  .pull-left {
+padding-left :10%;
+}
 	h1, h2 { font-size: 32px; }
 
 	.f1 { padding-bottom: 20px; }
